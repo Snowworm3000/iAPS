@@ -11,10 +11,10 @@ workflows:
         distribution_type: app_store
 
       vars:
-        BUNDLE_ID: "io.codemagic.sample.iosnative"
-        XCODE_WORKSPACE: "CodemagicSample.xcworkspace" # <-- Put the name of your Xcode workspace here
-        XCODE_SCHEME: "CodemagicSample" # <-- Put the name of your Xcode scheme here
-        APP_ID: 1555555551
+        BUNDLE_ID: "ru.artpancreas.$(DEVELOPMENT_TEAM).FreeAPS"
+
+
+        APP_ID: 1555555552
       xcode: latest
       cocoapods: default
     scripts:
